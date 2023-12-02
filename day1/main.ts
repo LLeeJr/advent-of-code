@@ -9,7 +9,6 @@ const lines = content.split('\n');
 const numbers = lines
     // remove this map if you want to try part one
     .map((line) => {
-        const includedDigits: any[] = [];
         digits.forEach((digit, index) => {
             if (line.includes(digit)) {
                 line = line.replaceAll(digit, replaceWith[index]);
@@ -19,7 +18,7 @@ const numbers = lines
         return line;
     })
     .map((line) => {
-        var numbers: number[] = [];
+        const numbers: number[] = [];
         for (let i = 0; i < line.length; i++) {
             if (!isNaN(parseInt(line.charAt(i)))) {
                 numbers.push(parseInt(line.charAt(i)));
