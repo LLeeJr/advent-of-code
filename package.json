@@ -1,0 +1,11 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/node": "^20.10.2"
+  },
+  "scripts": {
+    "day1": "cd day1 && tsc && node main.js",
+    "day2": "cd day2 && tsc && node main.js"
+  }
+}
