@@ -7,6 +7,7 @@ const content = fs.readFileSync('./input', 'utf8');
 const lines = content.split('\n');
 
 const numbers = lines
+    // remove this map if you want to try part one
     .map((line) => {
         const includedDigits: any[] = [];
         digits.forEach((digit, index) => {
