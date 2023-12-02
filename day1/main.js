@@ -25,6 +25,7 @@ const replaceWith = ['o1e', 't2o', 't3ree', 'f4ur', 'f5ve', 's6x', 's7ven', 'e8g
 const content = fs.readFileSync('./input', 'utf8');
 const lines = content.split('\n');
 const numbers = lines
+    // remove this map if you want to try part one
     .map((line) => {
     const includedDigits = [];
     digits.forEach((digit, index) => {
