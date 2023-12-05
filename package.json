@@ -6,6 +6,8 @@
   },
   "scripts": {
     "day1": "cd day1 && tsc && node main.js",
-    "day2": "cd day2 && tsc && node main.js"
+    "day2": "cd day2 && tsc && node main.js",
+    "day3": "cd day3 && tsc && node main.js",
+    "day4": "cd day4 && tsc && node main.js"
   }
 }
